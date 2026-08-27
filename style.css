@@ -1186,3 +1186,200 @@ a.go-top:hover .go-top-arrow {
 
 }
 }
+/* =========================================
+   RECOGNITION — MOBILE RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    /* INTRO */
+    .recognition-intro {
+        margin: 40px 0;
+    }
+
+    .recognition-kicker,
+    .research-kicker {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+
+    .recognition-intro h3 {
+        margin-top: 12px;
+        font-size: clamp(42px, 14vw, 65px);
+        line-height: .9;
+        letter-spacing: -3px;
+    }
+
+
+    /* FEATURE */
+    .recognition-feature {
+        grid-template-columns: 45px 1fr;
+        gap: 18px;
+
+        padding: 25px 20px;
+
+        align-items: start;
+    }
+
+    .recognition-number {
+        font-size: 9px;
+    }
+
+    .recognition-symbol {
+        font-size: 42px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .recognition-content {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+    .recognition-content span {
+        font-size: 7px;
+        letter-spacing: 1.5px;
+    }
+
+    .recognition-content h3 {
+        margin-top: 8px;
+        font-size: clamp(28px, 9vw, 40px);
+        line-height: 1;
+        letter-spacing: -1.5px;
+    }
+
+    .recognition-content h4 {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    .recognition-content p {
+        margin-top: 12px;
+        font-size: 9px;
+        line-height: 1.6;
+    }
+
+    .recognition-status {
+        grid-column: 1 / -1;
+
+        width: 100%;
+        box-sizing: border-box;
+
+        margin-top: 10px;
+        padding: 10px 8px;
+
+        font-size: 7px;
+    }
+
+
+    /* CARDS */
+    .recognition-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+
+        margin-top: 12px;
+    }
+
+    .recognition-card {
+        min-height: 200px;
+        padding: 25px 22px;
+    }
+
+    .recognition-card-number {
+        font-size: 9px;
+    }
+
+    .recognition-card-type {
+        margin-top: 20px;
+        font-size: 7px;
+        letter-spacing: 1.5px;
+    }
+
+    .recognition-card h3 {
+        margin-top: 10px;
+        font-size: 25px;
+        line-height: 1.05;
+    }
+
+    .recognition-card p {
+        margin-top: 15px;
+        font-size: 12px;
+        line-height: 1.5;
+        padding-bottom: 25px;
+    }
+
+    .recognition-card-status {
+        bottom: 20px;
+        font-size: 7px;
+    }
+
+
+    /* FOOTER */
+    .recognition-footer {
+        margin-top: 40px;
+        gap: 10px;
+
+        font-size: 7px;
+        line-height: 1.5;
+    }
+
+    .recognition-footer i {
+        min-width: 20px;
+    }
+}
+
+
+/* =========================================
+   EXTRA SMALL PHONES
+========================================= */
+
+@media (max-width: 480px) {
+
+    .recognition-intro {
+        margin: 30px 0;
+    }
+
+    .recognition-intro h3 {
+        font-size: 42px;
+        letter-spacing: -2.5px;
+    }
+
+    .recognition-feature {
+        grid-template-columns: 35px 1fr;
+        padding: 22px 16px;
+        gap: 14px;
+    }
+
+    .recognition-symbol {
+        font-size: 34px;
+    }
+
+    .recognition-content h3 {
+        font-size: 28px;
+    }
+
+    .recognition-content h4 {
+        font-size: 12px;
+    }
+
+    .recognition-content p {
+        font-size: 8px;
+    }
+
+    .recognition-card {
+        padding: 22px 18px;
+        min-height: 190px;
+    }
+
+    .recognition-card h3 {
+        font-size: 23px;
+    }
+
+    .recognition-card p {
+        font-size: 11px;
+    }
+
+    .recognition-footer {
+        font-size: 6px;
+    }
+}
