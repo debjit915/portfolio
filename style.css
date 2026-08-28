@@ -1504,3 +1504,57 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+/* =====================================================
+   MOBILE NAVIGATION FIX
+===================================================== */
+
+@media (max-width: 900px) {
+
+    /* Keep navigation visible */
+    nav {
+        display: flex !important;
+
+        width: 100% !important;
+
+        max-width: 100% !important;
+
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+
+        flex-wrap: nowrap !important;
+
+        white-space: nowrap !important;
+
+        gap: 22px !important;
+
+        padding: 12px 0 !important;
+
+        scrollbar-width: none !important;
+
+        -webkit-overflow-scrolling: touch !important;
+    }
+
+
+    /* Hide scrollbar on Chrome/Safari */
+    nav::-webkit-scrollbar {
+        display: none !important;
+    }
+
+
+    /* Prevent links from wrapping */
+    nav a {
+        display: inline-block !important;
+
+        flex: 0 0 auto !important;
+
+        white-space: nowrap !important;
+
+        font-size: 9px !important;
+
+        letter-spacing: 1px !important;
+
+        text-decoration: none !important;
+    }
+
+}
