@@ -1981,33 +1981,13 @@ body.light-theme .core {
 }
 
 
-/* Labels around the universe */
 
-body.light-theme .orbital-label {
-    background: #ffffff !important;
-
-    color: #111827 !important;
-
-    border-color: rgba(17, 24, 39, 0.45) !important;
-}
-
-
-/* =========================================
-   LIGHT THEME — BLACK ORBIT LINES
-========================================= */
-
-body.light-theme .orbit,
-body.light-theme .o1,
-body.light-theme .o2,
-body.light-theme .o3 {
-    border-color: #000000 !important;
-}
 /* 
 /* =========================================
    LIGHT THEME — FORCE PURE BLACK ORBITS
 ========================================= */
 
-/* body.light-theme .hero-orbit .orbit,
+ body.light-theme .hero-orbit .orbit,
 body.light-theme .hero-orbit .o1,
 body.light-theme .hero-orbit .o2,
 body.light-theme .hero-orbit .o3,
@@ -2018,4 +1998,4 @@ html.light-theme .hero-orbit .o2,
 html.light-theme .hero-orbit .o3 {
     border: 1px solid #000000 !important;
     opacity: 1 !important;
-} */ */
+}
