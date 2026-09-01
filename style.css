@@ -1990,3 +1990,15 @@ body.light-theme .orbital-label {
 
     border-color: rgba(17, 24, 39, 0.45) !important;
 }
+
+
+/* =========================================
+   LIGHT THEME — BLACK ORBIT LINES
+========================================= */
+
+body.light-theme .orbit,
+body.light-theme .o1,
+body.light-theme .o2,
+body.light-theme .o3 {
+    border-color: #000000 !important;
+}
