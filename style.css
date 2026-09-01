@@ -2002,12 +2002,12 @@ body.light-theme .o2,
 body.light-theme .o3 {
     border-color: #000000 !important;
 }
-
+/* 
 /* =========================================
    LIGHT THEME — FORCE PURE BLACK ORBITS
 ========================================= */
 
-body.light-theme .hero-orbit .orbit,
+/* body.light-theme .hero-orbit .orbit,
 body.light-theme .hero-orbit .o1,
 body.light-theme .hero-orbit .o2,
 body.light-theme .hero-orbit .o3,
@@ -2018,4 +2018,4 @@ html.light-theme .hero-orbit .o2,
 html.light-theme .hero-orbit .o3 {
     border: 1px solid #000000 !important;
     opacity: 1 !important;
-}
+} */ */
