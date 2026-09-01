@@ -55,3 +55,28 @@ window.addEventListener("scroll", function () {
     }
 
 });
+
+/* =========================================
+   LIGHT / DARK THEME
+========================================= */
+
+const themeToggle = document.getElementById("themeToggle");
+const themeIcon = document.querySelector(".theme-icon");
+
+
+themeToggle.addEventListener("click", function () {
+
+    document.body.classList.toggle("light-theme");
+
+
+    if (document.body.classList.contains("light-theme")) {
+
+        themeIcon.textContent = "☾";
+
+    } else {
+
+        themeIcon.textContent = "☀";
+
+    }
+
+});
