@@ -1948,3 +1948,45 @@ body.light-theme .hero h1 {
     color: #111827 !important;
     text-shadow: 7px 0 rgba(85, 246, 194, 0.25);
 }
+/* =========================================
+   LIGHT THEME — DARKER UNIVERSE / ORBIT LINES
+========================================= */
+
+body.light-theme .orbit {
+    border-color: rgba(17, 24, 39, 0.28) !important;
+}
+
+
+/* Make all 3 orbit rings more visible */
+
+body.light-theme .o1,
+body.light-theme .o2,
+body.light-theme .o3 {
+    border-color: rgba(17, 24, 39, 0.28) !important;
+}
+
+
+/* Orbit center */
+
+body.light-theme .core {
+    border-color: #008f68 !important;
+
+    background: rgba(0, 143, 104, 0.06) !important;
+
+    color: #008f68 !important;
+
+    box-shadow:
+        0 0 40px rgba(0, 143, 104, 0.18),
+        inset 0 0 30px rgba(0, 143, 104, 0.08) !important;
+}
+
+
+/* Labels around the universe */
+
+body.light-theme .orbital-label {
+    background: #ffffff !important;
+
+    color: #111827 !important;
+
+    border-color: rgba(17, 24, 39, 0.25) !important;
+}
