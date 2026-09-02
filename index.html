@@ -54,8 +54,8 @@
 
     </div>
 <!-- THEME SWITCH -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Change theme">
-        <span class="theme-icon">☀</span>
+   <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+        ☀
     </button>
 
 </nav>
@@ -719,6 +719,33 @@
     <span class="go-top-text">TOP</span>
 
 </a>
+
+<script>
+const themeToggle = document.getElementById("themeToggle");
+
+const savedTheme = localStorage.getItem("portfolio-theme");
+
+if (savedTheme === "light") {
+    document.body.classList.add("light-theme");
+    themeToggle.innerHTML = "☾";
+} else {
+    themeToggle.innerHTML = "☀";
+}
+
+themeToggle.addEventListener("click", () => {
+
+    document.body.classList.toggle("light-theme");
+
+    if (document.body.classList.contains("light-theme")) {
+        localStorage.setItem("portfolio-theme", "light");
+        themeToggle.innerHTML = "☾";
+    } else {
+        localStorage.setItem("portfolio-theme", "dark");
+        themeToggle.innerHTML = "☀";
+    }
+
+});
+</script>
 
 </body>
 </html>
